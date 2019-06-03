@@ -7,7 +7,7 @@ services:
       - ./start.sh:/docker-entrypoint-initdb.d/start.sh
       - ./initialization.sql:/initialization.sql
     networks:
-      a-project_default:
+      project_go_default:
         ipv4_address: 172.29.0.2
     environment:
       - POSTGRES_USER=yclu
