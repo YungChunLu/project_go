@@ -34,7 +34,7 @@ services:
       postgres:
         condition: service_started
 networks:
-    a-project_default:
+    project_go_default:
         name: project_go_default
         ipam:
             driver: default
